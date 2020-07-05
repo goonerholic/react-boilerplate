@@ -16,6 +16,8 @@ module.exports = {
     contentBase: path.resolve('build'),
     index: 'index.html',
     port: 3000,
+    hot: true,
+    stats: 'errors-only',
   },
   module: {
     rules: [
